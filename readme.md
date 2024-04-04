@@ -1,13 +1,8 @@
 # Book Recommender System
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Recommender-brightgreen)](https://book-recommender-system-m2ui.onrender.com)
-[![GitHub Repository](https://img.shields.io/badge/GitHub%20Repo-Book%20Recommender%20System-green)](https://github.com/rajatrawal/book-recommender-system-2)
-[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
 [![Python](https://img.shields.io/badge/Python-3.9-blue)](https://www.python.org/)
 [![Cosine Similarity](https://img.shields.io/badge/Cosine%20Similarity-Recommender-blue)](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html)
 [![Flask](https://img.shields.io/badge/Flask-Web%20App-blue)](https://flask.palletsprojects.com/en/2.0.x/)
-[![Render](https://img.shields.io/badge/Render-Cloud%20Deployment-blue)](https://render.com/)
 
 Welcome to the "Book Recommender System" project! This collaborative-based filtering model uses cosine similarity to recommend books. It's not just a recommendation system; it's your personalized book guide.
 
