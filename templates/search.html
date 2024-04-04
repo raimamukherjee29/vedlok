@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Book Recommender System</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <style>
+      .text-right {
+        text-align: right !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg"
+      style="height: 90px; background-color: #9f6152"
+    >
+      <div class="container-fluid">
+        <img
+          src="{{ url_for('static', filename='logo.jpg') }}"
+          alt="Home Image"
+          style="height: 65px; margin: 0%"
+        />
+        <a
+          class="navbar-brand"
+          href="/"
+          style="margin-left: -1130px; font-size: 30px"
+          ><b>Vedlok</b></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div style="margin-right: -10px">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/"
+                  style="font-size: 20px"
+                  >Search</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="popular" style="font-size: 20px"
+                  >Popular</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="search" style="font-size: 20px"
+                  >Home</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="container-fluid"
+      style="position: relative; height: 30%; background-color: black"
+    >
+      <img
+        src="{{ url_for('static', filename='home1.jpg') }}"
+        alt="Home Image"
+        style="width: 1500px; height: 550px; opacity: 80%"
+      />
+      <div
+        style="
+          position: absolute;
+          top: 66%;
+          left: 49%;
+          transform: translate(-50%, -50%);
+          color: grey;
+          font-size: 24px;
+          font-weight: bold;
+          text-align: center;
+        "
+      >
+        Shhhh... It's VedLok
+      </div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+      "
+    >
+      <div><h1>ABOUT</h1></div>
+      <div
+        class="container-fluid"
+        style="height: 30%; background-color: black; position: relative"
+      ></div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <!-- First Grid -->
+        <div class="col-md-6">
+          <img
+            src="{{ url_for('static', filename='home2.jpg') }}"
+            alt="Home Image 2"
+            style="width: 660px; height: 900px"
+          />
+        </div>
+        <!-- Second Grid -->
+        <div class="col-md-6">
+          <p
+            style="
+              line-height: 50px;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                sans-serif;
+              font-size: 25px;
+            "
+          >
+            <b>
+              We are storytellers ourselves, daughters of this land. Here at
+              Vedlok, we understand the yearning to revisit those comforting
+              moments, to get lost in the pages of a captivating book, and to
+              find solace in shared literary journeys. Just like the feeling of
+              curling up with a well-loved book on a rainy afternoon, Vedlok
+              aspires to be your cozy corner, a space fragrant with the aroma of
+              freshly brewed recommendations. We curate a library of stories
+              that whisper of Indian experiences, yet resonate with the
+              universal language of the heart. Think of Vedlok as your trusted
+              friend, the one you excitedly share book recommendations with, the
+              one who knows exactly the story that will mend a broken heart or
+              ignite your wanderlust. We understand the power of stories. They
+              offer escape when you need it most, a fantastical journey away
+              from daily worries. But they can also be a mirror, reflecting the
+              depths of your own reality. Join us on this beautiful exploration
+              of words, and discover the next chapter in your literary
+              adventure. Curl up in your favorite corner, a steaming cup of chai
+              by your side, and let Vedlok be your guide.
+            </b>
+          </p>
+          <p style="font-size: 30px"><b>~Now shhh I'm in Vedlok...</b></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

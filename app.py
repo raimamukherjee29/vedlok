@@ -20,6 +20,10 @@ def popular():
     data = popular_books.to_dict('records')
     return render_template('popular.html',data=data)
 
+@app.route('/search')
+def search():
+    return render_template('search.html',data=False)
+
 @app.route('/recommend',methods=['post'])
 def recommend():
     book_name = request.form.get('book_name')
