@@ -59,19 +59,4 @@ To run this project locally, follow these steps:
 
 5. Open your web browser and go to [http://localhost:5000](http://localhost:5000) to access the Book Recommender System.
 
-## Usage
 
-To get personalized book recommendations:
-
-- Visit the [Live Demo](https://book-recommender-system-m2ui.onrender.com) and use the user-friendly interface to discover your next read.
-
-
-## Discover Your Next Book
-
-Explore the "Book Recommender System" and discover your next favorite read. Get personalized recommendations and enhance your reading experience. Visit the [Live Demo](https://book-recommender-system-m2ui.onrender.com) and enjoy your reading journey!
-
-## Contribute
-
-If you'd like to contribute to this project or have suggestions for improvement, please feel free to submit issues or pull requests on [GitHub](https://github.com/rajatrawal/book-recommender-system-2).
-
-Thank you for exploring the "Book Recommender System"! We hope it enhances your reading recommendations.
